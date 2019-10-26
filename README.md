@@ -10,6 +10,7 @@ Our ideas now involve a multi player game with each player coining a unique abil
   - The Gravity Guitar
   - The Speed Synth
   - More on the way!
+  
 These abilities and intruments will affect the way all of the players experience the environment of the game. 
 There is room at the moment for a puzzle and external fighting format which will combine the characteristics of the instruments and characters with a level based puzzle design. 
 We want to use some simple controllers for the players to use and some set of shared resources which may include a number of uses for the instruments per level.
