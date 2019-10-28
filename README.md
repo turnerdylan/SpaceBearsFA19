@@ -10,6 +10,7 @@ Our ideas now involve a multi player game with each player coining a unique abil
   - The Size Saxophone
   - The Gravity Guitar
   - The Speed Synth
+  - Rotation Recorder
   - More on the way!
   
 These abilities and intruments will affect the way all of the players experience the environment of the game. 
