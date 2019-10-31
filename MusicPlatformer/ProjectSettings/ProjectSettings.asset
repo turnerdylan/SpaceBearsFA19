@@ -641,10 +641,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 82490cd9-91a3-48ad-9812-71afaa3e29a8
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: MusicPlatformer
+  organizationId: dytu4626
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
