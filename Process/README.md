@@ -17,10 +17,15 @@ Game Mechanics:
 - Traps and Obstacles
 
 After setting these goals for the development of our game we dug into some other aspects of the game that still needed fleshing out like player abilities, obstacles and world items, our core instrument ideas and how the instruments interact with the world or other objects. 
+
 The basic player abilities we want include walking/running, a short jump, using their instruments & potentially picking up objects or interacting with objects. Other abilities like sprinting or crouching probably won't impact how our players will interact with the game so they aren't immediately necessary. 
+
 Another topic we tossed around was the size of the characters, at the moment it looks like the main 4 characters will be Bears so their height and width probably won’t change between each character. We discussed having different animals and each of them being a different size, but we decided that changing each of their sizes would impact how they interacted with the platformer and added a layer of complexity to our lives that we probably don't need. 
+
 The obstacles and items we want to implement include lasers, buttons, doors, switches, portals, boxes and electricity. This is just our initial list.
+
 The instruments are probably the most exciting part of our game and we have semi-narrowed it down to 4 concepts. We want to include instruments that change time/speed, size, gravity/rotation and forces. This is also our initial list for this and probably will get revised as we home in on the specifics and limitations of each instrument. 
+
 One other aspect that we still need to discuss further are the interactions between the instruments and the thing that they are affecting. Can you change the size of a player from anywhere on the map or do you have to be standing next to them or do you have to be within line of sight? The same questions apply to interacting with an object and there are similar but still to be discovered questions about interacting with the world.
 
 There are still many questions to iron out, but we are on the way to answering them!
