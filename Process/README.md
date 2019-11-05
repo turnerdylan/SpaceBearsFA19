@@ -6,7 +6,7 @@
  
  Since we are team Space Bears, our multi-player cooperative puzzle game have four characters who are various bears. Big surprise. Our Team consists of:
  
-Alfred|Beethoven|Cherry|Doug Norton|Cherry|Doug Norton
+Alfred|Beethoven|Cherry|Doug Norton
 ---|---|---|---
 The leader of the gang|The jazzy one|The cute one|The sleepy one
 Plays the Time Trumpet|Plays the Size Saxophone|Plays the Force Flexaton|Plays the Gravity Guitar
