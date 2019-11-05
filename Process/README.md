@@ -2,6 +2,13 @@
  Final Project for team Space Bears in ATLS4040: Game Development
  
  ---
+ **Characters! 11/5/19**
+ 
+ Since we are team Space Bears
+ 
+ 
+ 
+ ---
 
 **Furthering the Concept 10/30/19**
 
