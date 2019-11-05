@@ -1,5 +1,5 @@
 # SpaceBearsFA19
- Final Project for team Space Bears in ATLS4040: Game Development
+## Final Project for team Space Bears in ATLS4040: Game Development
  
  ---
  **Characters! 11/5/19**
@@ -7,11 +7,11 @@
  Since we are team Space Bears, our multi-player cooperative puzzle game have four characters who are various bears. Big surprise. Our Team consists of:
  
  1. Alfred
-  The leader of the gang
-  Plays the Time Trumpet
-  Is a polar Bear
-  Keeps it tidy
-  Tall and over'bear'ing
+  *The leader of the gang
+  *Plays the Time Trumpet
+  *Is a polar Bear
+  *Keeps it tidy
+  *Tall and over'bear'ing
  
  2. Beethoven
  - The jazzy one
