@@ -1,5 +1,5 @@
 # SpaceBearsFA19
-## Final Project for team Space Bears in ATLS4040: Game Development
+## Final Project for Team Space Bears in ATLS4040: Game Development
  
  ---
  **Characters! 11/5/19**
