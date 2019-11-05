@@ -4,7 +4,7 @@
  ---
  **Characters! 11/5/19**
  
- Since we are team Space Bears, our multi-player cooperative puzzle game have four characters who are various bears. Big surprise. Our Team consists of:
+Since we are team Space Bears, our multi-player cooperative puzzle game has four characters who are various bears. Big surprise. The crew consists of:
  
 Alfred|Beethoven|Cherry|Doug Norton
 ---|---|---|---
