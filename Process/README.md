@@ -6,14 +6,14 @@
  
  Since we are team Space Bears, our multi-player cooperative puzzle game have four characters who are various bears. Big surprise. Our Team consists of:
  
-|Alfred|Beethoven|Cherry|Doug Norton|Cherry|Doug Norton|
-|---|---|---|---|
-|The leader of the gang|The jazzy one|The cute one|The sleepy one|
-|Plays the Time Trumpet|Plays the Size Saxophone|Plays the Force Flexaton|Plays the Gravity Guitar|
-|Is a polar Bear|Is a sloth bear|Actually a Koala (not a real bear)|Is a panda bear|
-|Keeps it tidy|Wears a bow tie|Wears a big bow on one ear|Has an umbrella|
-|Taps foot when waiting|Snaps fingers to a beat when idle|Is a crybaby|Fluffy|
-|Tall and over'bear'ing|Short and squat|A support character (emotional support)|Is actually a news anchor| 
+Alfred|Beethoven|Cherry|Doug Norton|Cherry|Doug Norton
+---|---|---|---
+The leader of the gang|The jazzy one|The cute one|The sleepy one
+Plays the Time Trumpet|Plays the Size Saxophone|Plays the Force Flexaton|Plays the Gravity Guitar
+Is a polar Bear|Is a sloth bear|Actually a Koala (not a real bear)|Is a panda bear
+Keeps it tidy|Wears a bow tie|Wears a big bow on one ear|Has an umbrella
+Taps foot when waiting|Snaps fingers to a beat when idle|Is a crybaby|Fluffy
+Tall and over'bear'ing|Short and squat|A support character (emotional support)|Is actually a news anchor
  
  ---
 
