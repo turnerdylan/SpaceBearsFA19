@@ -31,6 +31,7 @@ One other aspect that we still need to discuss further are the interactions betw
 There are still many questions to iron out, but we are on the way to answering them!
 
 
+---
 
 **Initial Ideation 10/23/19**
 
