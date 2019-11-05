@@ -1,5 +1,7 @@
 # SpaceBearsFA19
-# Final Project for team Space Bears in ATLS4040: Game Development
+ Final Project for team Space Bears in ATLS4040: Game Development
+ 
+ ---
 
 **Furthering the Concept 10/30/19**
 
@@ -29,7 +31,6 @@ The instruments are probably the most exciting part of our game and we have semi
 One other aspect that we still need to discuss further are the interactions between the instruments and the thing that they are affecting. Can you change the size of a player from anywhere on the map or do you have to be standing next to them or do you have to be within line of sight? The same questions apply to interacting with an object and there are similar but still to be discovered questions about interacting with the world.
 
 There are still many questions to iron out, but we are on the way to answering them!
-
 
 ---
 
