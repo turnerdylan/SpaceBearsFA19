@@ -2,6 +2,21 @@
 ## Final Project for Team Space Bears in ATLS4040: Game Development
  
  ---
+ **Instruments and Story 11/7/19**
+ 
+ 1. Time Trumpet
+ A directional beam that freezes an object or world item in place for a set duration after which the object unfreezes and is affected by physics again. Can freeze multiple objects at a time. 
+ 
+ 2. Size Saxophone
+ A directional beam that doubles or halves the size of an object or world item. Can freeze multiple objects at a time.
+ 
+ 3. Force Flexaton
+ A directional beam that pushes or pulls objets and world items in a straight line between the objects position and the Flexaton. Like a tractor beam and mass dependant. 
+ 
+ Story!
+ This three bear band is headed to the biggest jam fest this side of the milky way when their space bus crashes! Help repair the ship in time with your trusty instruments and get to that music festival!
+ 
+ ---
  **Characters! 11/5/19**
  
 Since we are team Space Bears, our multi-player cooperative puzzle game has four characters who are various bears. Big surprise. The crew consists of:
