@@ -11,14 +11,13 @@ public class PlayerController1 : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    /*private bool isGrounded;
-    public Transform groundsCheck;
+    bool isGrounded;
+    public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatIsGround;
-    Collider [] overlap;*/
-    bool canJump = true;
 
-    // Start is called before the first frame update
+    bool canJump;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -27,36 +26,27 @@ public class PlayerController1 : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        /*if (!isLocalPlayer)
-        {
-            return;
-        }*/
-        //isGrounded =
-        /*overlap = Physics.OverlapSphere(groundsCheck.position, checkRadius, whatIsGround);
-        for(int i=0; i<overlap.Length; i++)
-        {
-            if (!overlap[i])
-            {
-                isGrounded = false;
-            }
-        }*/
-        if (true)
-        {
-            moveInput = Input.GetAxis("Horizontal");
-            rb.velocity = new Vector3(moveInput * speed, rb.velocity.y);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
-            if (Input.GetKey(KeyCode.W) && canJump)
-            {
-                rb.velocity = Vector3.up * jumpForce;
-
-            }
-            canJump = false;
-        }
-
-        
+        moveInput = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector3(moveInput * speed, rb.velocity.y);
     }
 
-    private void OnCollisionStay(Collision collision)
+    private void Update()
+    {
+        if (isGrounded)
+        {
+            canJump = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.W) && canJump == true && isGrounded == true)
+        {
+            rb.velocity = Vector3.up * jumpForce;
+        }
+        canJump = false;
+    }
+
+    private void ontr (Collision2D collision)
     {
         canJump = true;
     }
