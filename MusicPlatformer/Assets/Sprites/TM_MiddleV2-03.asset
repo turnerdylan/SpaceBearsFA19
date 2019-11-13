@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TM_Middle
+  m_Name: TM_MiddleV2-03
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -440311696066193264, guid: 75d305d6f3af4ee40a572d5570d7f069,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: d931f33067a3f9b4a94b8a28449e0b88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
