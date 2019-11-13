@@ -13,7 +13,7 @@ public class SizeChange : MonoBehaviour
         rs = GetComponentInChildren<RaycastShooter>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.P))
         {

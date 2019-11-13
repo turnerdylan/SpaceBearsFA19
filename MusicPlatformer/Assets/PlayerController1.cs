@@ -29,7 +29,12 @@ public class PlayerController1 : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
         moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector3(moveInput * speed, rb.velocity.y);
+
+        if (rb.bodyType == RigidbodyType2D.Dynamic)
+        {
+            rb.velocity = new Vector3(moveInput * speed, rb.velocity.y);
+        }
+        
     }
 
     private void Update()
@@ -41,7 +46,11 @@ public class PlayerController1 : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W) && canJump == true && isGrounded == true)
         {
-            rb.velocity = Vector3.up * jumpForce;
+            if (rb.bodyType == RigidbodyType2D.Dynamic)
+            {
+                rb.velocity = Vector3.up * jumpForce;
+            }
+            else Debug.Log("Cannot affect static rigidbody");
         }
         canJump = false;
     }

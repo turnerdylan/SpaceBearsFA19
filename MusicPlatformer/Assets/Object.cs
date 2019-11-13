@@ -21,6 +21,11 @@ public class Object : MonoBehaviour
         largeScale = currentScale * 2;
     }
 
+    private void Update()
+    {
+        GetComponent<Rigidbody2D>().gravityScale = 1;
+    }
+
     public Vector3 GetLargeScale()
     {
         return largeScale;

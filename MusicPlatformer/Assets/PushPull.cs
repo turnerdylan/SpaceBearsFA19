@@ -18,13 +18,13 @@ public class PushPull : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         playerTransform = transform.position;
         
         if (Input.GetKey(KeyCode.E) )
         {
-            if (GetObject())
+            if (GetObject() && rb.bodyType != RigidbodyType2D.Static)
             {
                 rb.velocity = offset * moveSpeed;
                 rb.gravityScale = 0;
@@ -32,15 +32,11 @@ public class PushPull : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.Q))
         {
-            if (GetObject())
+            if (GetObject() && rb.bodyType != RigidbodyType2D.Static)
             {
                 rb.velocity = -offset * moveSpeed;
                 rb.gravityScale = 0;
             }
-        }
-        else
-        {
-            rb.gravityScale = 1;
         }
 
     }
@@ -55,7 +51,6 @@ public class PushPull : MonoBehaviour
             offset.Normalize();
             if (testObject.GetComponent<Rigidbody2D>() != null)
             {
-                Debug.Log("hit an object!");
                 rb = testObject.GetComponent<Rigidbody2D>();
                 return true;
             }
