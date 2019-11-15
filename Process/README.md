@@ -5,7 +5,9 @@
  **First Prototype and Tilemapping 11/13/19**
  
  After our organization meeting and distribution of tasks, we met up again to work on the implementation and some initial bug fixes. It It looks like our controller set up will work via a bluetooth connection with ps4 controllers. The keyboard controlls map well to the controller and one of our team members could control the characters from the working prototype separately which is promising. 
+ 
  Also the working prototype is working! Minus a few bugs each instrument has directional control and fires out in a beam using ray casting. The characters feel like you expect them to and the time, size, and force physics are all up and running which is awesome! 
+ 
  Lastly, the first set of tilemapping sprites was completed and put into Unity with the Tilemapping feature successfully so we can now begain to create the platforming levels easily. 
  
  All of these things combine to leave us in a great position to start designing levels and creating puzzels. It's happening!
