@@ -2,6 +2,22 @@
 ## Final Project for Team Space Bears in ATLS4040: Game Development
  
  ---
+ **First Prototype and Tilemapping 11/13/19**
+ 
+ After our organization meeting and distribution of tasks, we met up again to work on the implementation and some initial bug fixes. It It looks like our controller set up will work via a bluetooth connection with ps4 controllers. The keyboard controlls map well to the controller and one of our team members could control the characters from the working prototype separately which is promising. 
+ Also the working prototype is working! Minus a few bugs each instrument has directional control and fires out in a beam using ray casting. The characters feel like you expect them to and the time, size, and force physics are all up and running which is awesome! 
+ Lastly, the first set of tilemapping sprites was completed and put into Unity with the Tilemapping feature successfully so we can now begain to create the platforming levels easily. 
+ 
+ All of these things combine to leave us in a great position to start designing levels and creating puzzels. It's happening!
+ 
+ ---
+ **Team Organization & Logistics 11/11/19**
+ 
+ Now that we have our game idea fleshed out, it is time to start making our game. We started this week with organizing the current tasks, outlining the goals for the next few weeks and distributing responsibilities. To facilitate this we set up a Gantt Chart and Trello board with the goal of narrowing our usage down to one of these platforms after figuring out which we prefered to use.
+  
+  Our list of tasks for this week include some controller configurations and connectivity, an initial set of tilemapping sprites and some working mechanics protoypes for our instruments and characters.
+ 
+ ---
  **Instruments and Story 11/7/19**
  
  1. Time Trumpet
