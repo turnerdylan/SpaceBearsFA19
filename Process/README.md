@@ -2,7 +2,7 @@
 ## Final Project for Team Space Bears in ATLS4040: Game Development
  
  ---
- **First Prototype and Tilemapping 11/13/19**
+ ## First Prototype and Tilemapping 11/13/19
  
  After our organization meeting and distribution of tasks, we met up again to work on the implementation and some initial bug fixes. It It looks like our controller set up will work via a bluetooth connection with ps4 controllers. The keyboard controlls map well to the controller and one of our team members could control the characters from the working prototype separately which is promising. 
  
@@ -13,14 +13,14 @@
  All of these things combine to leave us in a great position to start designing levels and creating puzzels. It's happening!
  
  ---
- **##Team Organization & Logistics 11/11/19**
+ ## Team Organization & Logistics 11/11/19
  
  Now that we have our game idea fleshed out, it is time to start making our game. We started this week with organizing the current tasks, outlining the goals for the next few weeks and distributing responsibilities. To facilitate this we set up a Gantt Chart and Trello board with the goal of narrowing our usage down to one of these platforms after figuring out which we prefered to use.
   
   Our list of tasks for this week include some controller configurations and connectivity, an initial set of tilemapping sprites and some working mechanics protoypes for our instruments and characters.
  
  ---
- **##Instruments and Story 11/7/19**
+ ## Instruments and Story 11/7/19
  
  1. Time Trumpet
  A directional beam that freezes an object or world item in place for a set duration after which the object unfreezes and is affected by physics again. Can freeze multiple objects at a time. 
@@ -35,7 +35,7 @@
  This three bear band is headed to the biggest jam fest this side of the milky way when their space bus crashes! Help repair the ship in time with your trusty instruments and get to that music festival!
  
  ---
- **##Characters! 11/5/19**
+ ## Characters! 11/5/19**
  
 Since we are team Space Bears, our multi-player cooperative puzzle game has four characters who are various bears. Big surprise. The crew consists of:
  
@@ -50,7 +50,7 @@ Short and squat|A support character (emotional support)|Is actually a news ancho
  
  ---
 
-**Furthering the Concept 10/30/19**
+## Furthering the Concept 10/30/19**
 
 We discussed as a team the basic direction that we wanted our game to go in. This included our Design Values and our Core Mechanics.
 
@@ -81,7 +81,7 @@ There are still many questions to iron out, but we are on the way to answering t
 
 ---
 
-**Initial Ideation 10/23/19**
+## Initial Ideation 10/23/19**
 
 The dust has settled from our huge class brainstorm and a team has emerged. Team Space Bears!
 The working design includes a CO-OP Animal Astronaut Magical Musical Puzzle Adventure Game. Just that. Potentially astronaut bears but it is still getting ironed out. We want to create a visually and complexly simple game with some interesting mechanical depth... if that exists.
