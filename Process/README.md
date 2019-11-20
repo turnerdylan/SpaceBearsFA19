@@ -42,7 +42,7 @@ Since we are team Space Bears, our multi-player cooperative puzzle game has four
 Beethoven|Cherry|Doug Norton
 ---|---|---
 The jazzy one|The cute one|The sleepy one
-Plays the Time Trumpet|Plays the Size Saxophone|Plays the Force Flexaton|Plays the Gravity Guitar
+Plays the Time Trumpet|Plays the Force Flexaton|Plays the Size Saxophone
 Is a polar Bear|Actually a Koala (not a real bear)|Is a panda bear
 Wears a bow tie|Wears a big bow on one ear|Has an umbrella
 Snaps fingers to a beat when idle|Is a crybaby|Fluffy
