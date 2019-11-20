@@ -35,7 +35,7 @@
  This three bear band is headed to the biggest jam fest this side of the milky way when their space bus crashes! Help repair the ship in time with your trusty instruments and get to that music festival!
  
  ---
- ## Characters! 11/5/19**
+ ## Characters! 11/5/19
  
 Since we are team Space Bears, our multi-player cooperative puzzle game has four characters who are various bears. Big surprise. The crew consists of:
  
@@ -50,7 +50,7 @@ Short and squat|A support character (emotional support)|Is actually a news ancho
  
  ---
 
-## Furthering the Concept 10/30/19**
+## Furthering the Concept 10/30/19
 
 We discussed as a team the basic direction that we wanted our game to go in. This included our Design Values and our Core Mechanics.
 
