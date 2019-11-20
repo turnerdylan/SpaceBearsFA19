@@ -81,7 +81,7 @@ There are still many questions to iron out, but we are on the way to answering t
 
 ---
 
-## Initial Ideation 10/23/19**
+## Initial Ideation 10/23/19
 
 The dust has settled from our huge class brainstorm and a team has emerged. Team Space Bears!
 The working design includes a CO-OP Animal Astronaut Magical Musical Puzzle Adventure Game. Just that. Potentially astronaut bears but it is still getting ironed out. We want to create a visually and complexly simple game with some interesting mechanical depth... if that exists.
