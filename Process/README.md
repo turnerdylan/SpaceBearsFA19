@@ -1,6 +1,13 @@
 # SpaceBearsFA19
 ## Final Project for Team Space Bears in ATLS4040: Game Development
  
+  ---
+ ## Bears, Bug Fixes and Levels 11/20/19
+ 
+ We finally have our Bears!
+![BearSprite](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/MusicPlatformer/Assets/Sprites/Beethoven-02.png)
+ 
+ 
  ---
  ## First Prototype and Tilemapping 11/13/19
  
