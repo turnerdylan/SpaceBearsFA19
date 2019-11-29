@@ -86,6 +86,15 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: -4, y: 0, z: 0}
+    second:
+      m_TileIndex: 9
+      m_TileSpriteIndex: 9
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   - first: {x: -2, y: 0, z: 0}
     second:
       m_TileIndex: 0
@@ -142,6 +151,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 9c90b602280c17240930ef3a5bc74d21, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: eca3437dc84338d42a34762658f3e106, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 5d551c8bacc080940a6826c07281bc47, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 2955603219295211568, guid: 75d305d6f3af4ee40a572d5570d7f069,
@@ -168,8 +179,10 @@ Tilemap:
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: d931f33067a3f9b4a94b8a28449e0b88, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 86e356cb799d13340b18c2bc61d299e0, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 9
+  - m_RefCount: 10
     m_Data:
       e00: 1
       e01: 0
@@ -188,7 +201,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 9
+  - m_RefCount: 10
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -314,5 +327,5 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 12395, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Palette Settings
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   cellSizing: 0

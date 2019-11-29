@@ -20,11 +20,11 @@ public class TimeFreeze : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            if (testObject = rs.GetObjectHit())
+            if (GetObject())
             {
+                Debug.Log("object hit is " + testObject.name);
                 if (testObject.GetComponent<Rigidbody2D>())
                 {
-                    Debug.Log("hit an object!");
                     rb = testObject.GetComponent<Rigidbody2D>();
                 }
                 else
@@ -35,7 +35,6 @@ public class TimeFreeze : MonoBehaviour
                 if (!testObject.isFrozen)
                 {
                     storedVelocity = rb.velocity;
-                    //rb.velocity = Vector2.zero;
                     rb.bodyType = RigidbodyType2D.Static;
                     testObject.isFrozen = true;
                 }
@@ -45,7 +44,18 @@ public class TimeFreeze : MonoBehaviour
                     rb.velocity = storedVelocity;
                     testObject.isFrozen = false;
                 }
-            }    
+            }
         }
+    }
+
+    bool GetObject()
+    {
+        testObject = rs.GetObjectHit();
+        if (testObject)
+        {
+            return true;
+        }
+        return false;
+
     }
 }

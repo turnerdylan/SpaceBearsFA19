@@ -21,24 +21,43 @@ public class PushPull : MonoBehaviour
     void FixedUpdate()
     {
         playerTransform = transform.position;
-        
+
         if (Input.GetKey(KeyCode.E) )
         {
-            if (GetObject() && rb.bodyType != RigidbodyType2D.Static)
+            if (GetObject())
             {
-                rb.velocity = offset * moveSpeed;
-                rb.gravityScale = 0;
+                GetOffset();
+                if(rb.bodyType != RigidbodyType2D.Static)
+                {
+                    rb.velocity = offset * moveSpeed;
+                    rb.gravityScale = 0;
+                    testObject.isBeingPushed = true;
+                }
             }
+
         }
         else if (Input.GetKey(KeyCode.Q))
         {
-            if (GetObject() && rb.bodyType != RigidbodyType2D.Static)
+            if (GetObject())
             {
-                rb.velocity = -offset * moveSpeed;
-                rb.gravityScale = 0;
+                GetOffset();
+                if (rb.bodyType != RigidbodyType2D.Static)
+                {
+                    rb.velocity = -offset * moveSpeed;
+                    rb.gravityScale = 0;
+                    testObject.isBeingPushed = true;
+                }
             }
         }
 
+    }
+
+    void GetOffset()
+    {
+        objectTransform = testObject.transform.position;
+        offset = objectTransform - playerTransform;
+        offset.Normalize();
+        rb = testObject.GetComponent<Rigidbody2D>();
     }
 
     bool GetObject()
@@ -46,15 +65,9 @@ public class PushPull : MonoBehaviour
         testObject = rs.GetObjectHit();
         if (testObject)
         {
-            objectTransform = testObject.transform.position;
-            offset = objectTransform - playerTransform;
-            offset.Normalize();
-            if (testObject.GetComponent<Rigidbody2D>() != null)
-            {
-                rb = testObject.GetComponent<Rigidbody2D>();
-                return true;
-            }
+            return true;
         }
         return false;
+
     }
 }

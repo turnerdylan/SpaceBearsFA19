@@ -5,17 +5,20 @@ using UnityEngine;
 public class Object : MonoBehaviour
 {
     Vector3 currentScale;
-
     Vector3 smallScale;
     Vector3 largeScale;
+    float scaleSpeed = 5f;
 
-    float scaleSpeed = 3f;
+    Rigidbody2D rb;
+
     public bool isFrozen = false;
-
+    public bool isBeingPushed = false;
+    public float currentGravityScale = 1;
 
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         currentScale = transform.localScale;
         smallScale = currentScale / 2;
         largeScale = currentScale * 2;
@@ -23,7 +26,12 @@ public class Object : MonoBehaviour
 
     private void Update()
     {
-        GetComponent<Rigidbody2D>().gravityScale = 1;
+        rb.gravityScale = currentGravityScale;
+    }
+
+    public Rigidbody2D CheckForRB()
+    {
+        return rb;
     }
 
     public Vector3 GetLargeScale()

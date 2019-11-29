@@ -22,6 +22,6 @@ public class LevelCompleteCheck : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //ll.LoadNextScene();
+        ll.LoadNextScene();
     }
 }

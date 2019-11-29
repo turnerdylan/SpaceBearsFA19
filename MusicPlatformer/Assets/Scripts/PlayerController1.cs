@@ -34,17 +34,13 @@ public class PlayerController1 : MonoBehaviour
         {
             rb.velocity = new Vector3(moveInput * speed, rb.velocity.y);
         }
-        
+
+
     }
 
     private void Update()
     {
-        if (isGrounded)
-        {
-            canJump = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.W) && canJump == true && isGrounded == true)
+        if (Input.GetKeyDown(KeyCode.W) && isGrounded == true)
         {
             if (rb.bodyType == RigidbodyType2D.Dynamic)
             {
@@ -52,11 +48,6 @@ public class PlayerController1 : MonoBehaviour
             }
             else Debug.Log("Cannot affect static rigidbody");
         }
-        canJump = false;
-    }
-
-    private void ontr (Collision2D collision)
-    {
-        canJump = true;
+        isGrounded = false;
     }
 }
