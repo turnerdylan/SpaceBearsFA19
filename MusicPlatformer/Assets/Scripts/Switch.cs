@@ -6,11 +6,15 @@ public class Switch : MonoBehaviour
 {
     bool switchState = false;
     public GameObject door;
+    public Sprite unpressed;
+    public Sprite pressed;
+    SpriteRenderer sr;
+
     public float moveDistance = 50;
 
     private void Start()
     {
-        
+        sr.sprite = unpressed;
     }
 
     private void OnTriggerStay2D(Collider2D collision)

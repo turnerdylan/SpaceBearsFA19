@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 3407009868110704570}
   - component: {fileID: 3407009868110704451}
   - component: {fileID: 3407009868110704575}
-  - component: {fileID: 6663920026275677466}
   - component: {fileID: -8492378744501215949}
+  - component: {fileID: 1609220880234572114}
   m_Layer: 8
   m_Name: Cherry - PushPull
   m_TagString: Player
@@ -58,7 +58,7 @@ MonoBehaviour:
   checkRadius: 0.6
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 7734
+    m_Bits: 15926
 --- !u!50 &3407009868110704448
 Rigidbody2D:
   serializedVersion: 4
@@ -127,40 +127,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
---- !u!60 &6663920026275677466
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3407009868110704568}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 1
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5152426, y: 0.74857914}
-      - {x: -0.46090126, y: 0.7207211}
-      - {x: -0.35257864, y: 0.022675872}
-      - {x: -0.6726599, y: -0.37659562}
-      - {x: -0.53616905, y: -0.83965945}
-      - {x: 0.02741146, y: -0.90751433}
-      - {x: 0.5273814, y: -0.81121844}
-      - {x: 0.69398594, y: -0.3814832}
-      - {x: 0.3196211, y: 0.01564908}
 --- !u!95 &-8492378744501215949
 Animator:
   serializedVersion: 3
@@ -180,6 +146,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &1609220880234572114
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3407009868110704568}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.019569874, y: -0.058680058}
+  m_Size: {x: 1.1131792, y: 1.5867987}
+  m_Direction: 0
 --- !u!1 &3407009868472288520
 GameObject:
   m_ObjectHideFlags: 0

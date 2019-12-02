@@ -231,9 +231,9 @@ GameObject:
   - component: {fileID: 5511614780114027171}
   - component: {fileID: 5511614780114027174}
   - component: {fileID: 5511614780114027173}
-  - component: {fileID: 479702051433215455}
   - component: {fileID: 5511614780114027183}
   - component: {fileID: 8599201195281330546}
+  - component: {fileID: 8145152192286211728}
   m_Layer: 10
   m_Name: Beethoven - TimeFreeze
   m_TagString: Player
@@ -276,7 +276,7 @@ MonoBehaviour:
   checkRadius: 0.6
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 6966
+    m_Bits: 15158
 --- !u!50 &5511614780114027171
 Rigidbody2D:
   serializedVersion: 4
@@ -332,40 +332,6 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 75
---- !u!60 &479702051433215455
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5511614780114027180}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 1
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5675907, y: 0.8711306}
-      - {x: -0.55042076, y: 0.87241805}
-      - {x: -0.3981371, y: 0.051662803}
-      - {x: -0.68738556, y: -0.40744805}
-      - {x: -0.3764658, y: -0.8301465}
-      - {x: 0.02741146, y: -0.90751433}
-      - {x: 0.39982033, y: -0.8461798}
-      - {x: 0.69398594, y: -0.3957775}
-      - {x: 0.3937559, y: 0.08701581}
 --- !u!114 &5511614780114027183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,6 +363,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &8145152192286211728
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5511614780114027180}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.017403603, y: -0.054762483}
+  m_Size: {x: 1.1526375, y: 1.8883712}
+  m_Direction: 0
 --- !u!1 &5511614780667606007
 GameObject:
   m_ObjectHideFlags: 0
