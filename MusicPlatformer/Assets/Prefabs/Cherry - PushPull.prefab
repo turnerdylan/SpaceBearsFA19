@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3407009868110704451}
   - component: {fileID: 3407009868110704575}
   - component: {fileID: 6663920026275677466}
+  - component: {fileID: -8492378744501215949}
   m_Layer: 8
   m_Name: Cherry - PushPull
   m_TagString: Player
@@ -160,6 +161,25 @@ PolygonCollider2D:
       - {x: 0.5273814, y: -0.81121844}
       - {x: 0.69398594, y: -0.3814832}
       - {x: 0.3196211, y: 0.01564908}
+--- !u!95 &-8492378744501215949
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3407009868110704568}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d00c4952bda2ad94cb5873de2cd8dbdb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3407009868472288520
 GameObject:
   m_ObjectHideFlags: 0

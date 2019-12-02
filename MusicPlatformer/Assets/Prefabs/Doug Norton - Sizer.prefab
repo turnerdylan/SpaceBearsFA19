@@ -187,6 +187,7 @@ GameObject:
   - component: {fileID: 2061074949952724700}
   - component: {fileID: 2061074949952724692}
   - component: {fileID: 6219302544467683750}
+  - component: {fileID: -9081449884748560406}
   m_Layer: 9
   m_Name: Doug Norton - Sizer
   m_TagString: Player
@@ -313,10 +314,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.9071429, y: 2.3738096}
+    newSize: {x: 1.9047619, y: 2.3738096}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
@@ -331,6 +332,25 @@ PolygonCollider2D:
       - {x: 0.39982033, y: -0.8461798}
       - {x: 0.69398594, y: -0.3957775}
       - {x: 0.3937559, y: 0.08701581}
+--- !u!95 &-9081449884748560406
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061074949952724693}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 355ea6f9a20bae3419dca5ad9f9e5d7b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2061074950336309488
 GameObject:
   m_ObjectHideFlags: 0

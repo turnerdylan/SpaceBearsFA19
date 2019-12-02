@@ -233,6 +233,7 @@ GameObject:
   - component: {fileID: 5511614780114027173}
   - component: {fileID: 479702051433215455}
   - component: {fileID: 5511614780114027183}
+  - component: {fileID: 8599201195281330546}
   m_Layer: 10
   m_Name: Beethoven - TimeFreeze
   m_TagString: Player
@@ -377,6 +378,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed0ad06f79bf7ce4b80c0d2a12ab2863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &8599201195281330546
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5511614780114027180}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 16454d8bbb5f69840bb74368a3143b72, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5511614780667606007
 GameObject:
   m_ObjectHideFlags: 0
