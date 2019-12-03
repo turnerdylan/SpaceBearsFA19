@@ -1,6 +1,23 @@
 # SpaceBearsFA19
 ## Final Project for Team Space Bears in ATLS4040: Game Development
+ ---
+ ## Game Sound 12/3/19
  
+As we approach the end of the semester we are starting to polish our project into the passion project our team has envisioned. One area we are looking at now is the sound design of the game. Currently we aren't expecting any limitations on file size as our game isn't too massive, we will be using BFXR to create our sound effects and FL Studio to create our soundtrack both of which will be exported as WAV files. Below is our current sound design plans.
+
+Player Sounds:
+- Jumping: Cute sounding jump effect
+- Walking: Soft pitterpatter on various materials.
+- Instrument Powers: each instrument will play along with the soundtrack whenever their button is pressed (we would also like to add a button to just stand still and play the instrument for no reason if time allows for it. Because jamming out is the best)
+
+Global Elements:
+- Ambient Soundtrack: The soundtrack will be simple and space themed and will be in compliment to the bears various instruments
+- Diegetic Sounds: we will need various sound effects for objects in the world such as switches, buttons, doors, fans, and other objects. The sound effects will be designed such that players know when they are interacting with an object.
+
+Menus:
+- Sounds: navigation blips to notify the player of when they are interacting with UI elements
+- Music: Title screen music which features all of the instruments from the game with a cutesy space feeling
+
   ---
  ## Bears, Bug Fixes and Levels 11/20/19
  
