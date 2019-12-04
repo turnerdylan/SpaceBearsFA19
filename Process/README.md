@@ -1,19 +1,52 @@
 # SpaceBearsFA19
 ## Final Project for Team Space Bears in ATLS4040: Game Development
+ ---
+ ## Game Sound 12/3/19
+ 
+As we approach the end of the semester we are starting to polish our project into the passion project our team has envisioned. One area we are looking at now is the sound design of the game. Currently we aren't expecting any limitations on file size as our game isn't too massive, we will be using BFXR to create our sound effects and FL Studio to create our soundtrack both of which will be exported as WAV files. Below is our current sound design plans.
+
+Player Sounds:
+- Jumping: Cute sounding jump effect
+- Walking: Soft pitterpatter on various materials.
+- Instrument Powers: each instrument will play along with the soundtrack whenever their button is pressed (we would also like to add a button to just stand still and play the instrument for no reason if time allows for it. Because jamming out is the best)
+
+Global Elements:
+- Ambient Soundtrack: The soundtrack will be simple and space themed and will be in compliment to the bears various instruments
+- Diegetic Sounds: we will need various sound effects for objects in the world such as switches, buttons, doors, fans, and other objects. The sound effects will be designed such that players know when they are interacting with an object.
+
+Menus:
+- Sounds: navigation blips to notify the player of when they are interacting with UI elements
+- Music: Title screen music which features all of the instruments from the game with a cutesy space feeling
+
+  ---
+ ## Animations and Levels Update 12/1/19
+ 
+ If anyone was worried about how cute the bears would look while walking, take a look at this!
+ <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/B-WalkRightAnimation.gif" width="275">
+ <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/C-WalkRightAnimation.gif" width="275">
+ <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/DN-WalkRightAnimation.gif" width="275">
+ 
+ We got through integrating all the left and right movement and jumping animations post-Thanksgiving after making those animations earlier during the holidays. The next step was to try our hands at making some levels!
+ 
+ Since the instrument powers already had their own introductory levels, we could now design levels that needed to use a combination of the powers while also incorporating other world objects. This includes things like buttons, switches, doors, lasers, portals and others mentioned previously. We worked on the next few levels and came up with those pictured below. Playtesting with the controllers and also other players will be needed to see if they are both intuitive yet challanging and more levels need to be created soon.
+ 
+ <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/AdvencedLevels01.jpg" width="250"> 
+ <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/AdvencedLevels02.jpg" width="275"> 
  
   ---
  ## Bears, Bug Fixes and Levels 11/20/19
  
  We finally have our Bears!
-![BearSprite](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/MusicPlatformer/Assets/Sprites/TheBears.png)
+![BearSprite](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/TheBears.png)
  The long awaited release of the bears is finally here! As described in the Characters Update, we now have our basic bear sprites to play with in our game. Animations will be coming in the next week or so and we are very excited for that. We have created a list of the animations we want including some basic walking in either diretion, jumping, jumping while walking and using the instruments. More will proabbly get added to this list. 
  
  We are still working on a few bug fixes but on the whole, all of the player mechanics for the game are complete. Woo! The next steps will be implementing the level specific mechancis like levers, doors, transitions, and allowing the players to pick up/use objects and items in the world.
  
- Speaking of levels, we have the first 4 introductory levels drawn out and created in the game using the tilemap we implemented a week ago. The first level is simply an introduction jump stage, followed by 3 levels that are designed to be solved using each instrument's power. This allows each player to get a feel for their instrument and practice using it to solve a specific problem. In later levels we can come back to these intial uses and the player will know what to do, which combined with a new scenario creates a fun puzzle space. A space puzzle space.
+ Speaking of levels, we have the first 4 introductory levels drawn out and created in the game using the tilemap we implemented a week ago. The first level is simply an introduction jump stage, followed by 3 levels that are designed to be solved using each instrument's power. This allows each player to get a feel for their instrument and practice using it to solve a specific problem. In later levels we can come back to these intial uses and the player will know what to do, which combined with a new scenario creates a fun puzzle space. A space puzzle space. 
+ 
+<img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/IntroLevels01.jpg" width="250"> <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/IntroLevels02.jpg" width="275"> <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/IntroLevels02V2.jpg" width="275">
  
  Go Space Bears!
- 
  
  ---
  ## First Prototype and Tilemapping 11/13/19
