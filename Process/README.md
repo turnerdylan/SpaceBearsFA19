@@ -19,10 +19,22 @@ Menus:
 - Music: Title screen music which features all of the instruments from the game with a cutesy space feeling
 
   ---
+ ## Animations and Levels Update 12/1/19
+ 
+ If anyone was worried about how cute the bears would look while walking, take a look at this!
+ ![B-Walking](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/B-WalkRightAnimation.gif)
+ ![C-Walking](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/C-WalkRightAnimation.gif)
+ ![DN-Walking](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/DN-WalkRightAnimation.gif) 
+ 
+ We got through integrating all the left and right movement and jumping animations post-Thanksgiving after making those animations earlier during the holidays. The next step was to try our hands at making some levels!
+ 
+ 
+ 
+  ---
  ## Bears, Bug Fixes and Levels 11/20/19
  
  We finally have our Bears!
-![BearSprite](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/MusicPlatformer/Assets/Sprites/TheBears.png)
+![BearSprite](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/TheBears.png)
  The long awaited release of the bears is finally here! As described in the Characters Update, we now have our basic bear sprites to play with in our game. Animations will be coming in the next week or so and we are very excited for that. We have created a list of the animations we want including some basic walking in either diretion, jumping, jumping while walking and using the instruments. More will proabbly get added to this list. 
  
  We are still working on a few bug fixes but on the whole, all of the player mechanics for the game are complete. Woo! The next steps will be implementing the level specific mechancis like levers, doors, transitions, and allowing the players to pick up/use objects and items in the world.
