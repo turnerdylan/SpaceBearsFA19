@@ -22,9 +22,9 @@ Menus:
  ## Animations and Levels Update 12/1/19
  
  If anyone was worried about how cute the bears would look while walking, take a look at this!
- <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/B-WalkRightAnimation.gif" width="50">
- ![C-Walking](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/C-WalkRightAnimation.gif)
- ![DN-Walking](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/DN-WalkRightAnimation.gif) 
+ <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/B-WalkRightAnimation.gif" width="250">
+ <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/C-WalkRightAnimation.gif" width="250">
+ <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/DN-WalkRightAnimation.gif" width="250">
  
  We got through integrating all the left and right movement and jumping animations post-Thanksgiving after making those animations earlier during the holidays. The next step was to try our hands at making some levels!
  
