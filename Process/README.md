@@ -40,6 +40,7 @@ Menus:
  We are still working on a few bug fixes but on the whole, all of the player mechanics for the game are complete. Woo! The next steps will be implementing the level specific mechancis like levers, doors, transitions, and allowing the players to pick up/use objects and items in the world.
  
  Speaking of levels, we have the first 4 introductory levels drawn out and created in the game using the tilemap we implemented a week ago. The first level is simply an introduction jump stage, followed by 3 levels that are designed to be solved using each instrument's power. This allows each player to get a feel for their instrument and practice using it to solve a specific problem. In later levels we can come back to these intial uses and the player will know what to do, which combined with a new scenario creates a fun puzzle space. A space puzzle space.
+ 
  <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/IntroLevels01.jpg" width="250">
  <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/IntroLevels02.jpg" width="250">
  <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/IntroLevels02V2.jpg" width="250">
