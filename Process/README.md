@@ -22,7 +22,7 @@ Menus:
  ## Animations and Levels Update 12/1/19
  
  If anyone was worried about how cute the bears would look while walking, take a look at this!
- ![B-Walking](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/B-WalkRightAnimation.gif | height = 100px)
+ <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/B-WalkRightAnimation.gif" width="50">
  ![C-Walking](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/C-WalkRightAnimation.gif)
  ![DN-Walking](https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/DN-WalkRightAnimation.gif) 
  
