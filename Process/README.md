@@ -30,8 +30,7 @@ Menus:
  
  Since the instrument powers already had their own introductory levels, we could now design levels that needed to use a combination of the powers while also incorporating other world objects. This includes things like buttons, switches, doors, lasers, portals and others mentioned previously. We worked on the next few levels and came up with those pictured below. Playtesting with the controllers and also other players will be needed to see if they are both intuitive yet challanging and more levels need to be created soon.
  
- <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/AdvencedLevels01.jpg" width="200"> 
- <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/AdvancedLevels02.jpg" width="200"> 
+ <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/AdvencedLevels01.jpg" width="250">  <img src="https://github.com/turnerdylan/SpaceBearsFA19/blob/master/Process/AdvancedLevels02.jpg" width="275"> 
  
   ---
  ## Bears, Bug Fixes and Levels 11/20/19
