@@ -10,6 +10,8 @@ public class Button : MonoBehaviour
     SpriteRenderer sr;
     public GameObject interaction;
 
+    public AudioSource ButtonSFX;
+
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -21,7 +23,7 @@ public class Button : MonoBehaviour
         interaction.GetComponent<Animation>().Play("Anim1");
         isPressed = true;
         sr.sprite = pressed;
-        
+        ButtonSFX.Play();
     }
 
     private void OnCollisionExit2D(Collision2D collision)

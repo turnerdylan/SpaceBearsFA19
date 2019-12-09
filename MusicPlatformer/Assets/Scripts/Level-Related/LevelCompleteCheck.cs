@@ -12,6 +12,9 @@ public class LevelCompleteCheck : MonoBehaviour
     public Sprite doorOpen;
     SpriteRenderer sr;
 
+    public AudioSource Victory;
+    public AudioSource Door;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +33,9 @@ public class LevelCompleteCheck : MonoBehaviour
         {
             sr.sprite = doorOpen;
             StartCoroutine(delay());
+            Victory.Play();
+            Door.Play();
+            
         } 
     }
 

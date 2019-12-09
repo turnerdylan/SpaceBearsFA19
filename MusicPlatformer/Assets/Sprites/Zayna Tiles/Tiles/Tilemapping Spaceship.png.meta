@@ -1,0 +1,703 @@
+fileFormatVersion: 2
+guid: 8780f9e0829fe9547b7811b9cc3ee279
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -452326061526053197
+    second: Tilemapping Spaceship_0
+  - first:
+      213: -6419520902869549309
+    second: Tilemapping Spaceship_1
+  - first:
+      213: 3171607923898160759
+    second: Tilemapping Spaceship_2
+  - first:
+      213: 912977367536317740
+    second: Tilemapping Spaceship_3
+  - first:
+      213: -5247598247218913139
+    second: Tilemapping Spaceship_4
+  - first:
+      213: -7773288563654897884
+    second: Tilemapping Spaceship_5
+  - first:
+      213: -3171982157230357789
+    second: Tilemapping Spaceship_6
+  - first:
+      213: -5635029411272020642
+    second: Tilemapping Spaceship_7
+  - first:
+      213: 4760229903709667560
+    second: Tilemapping Spaceship_8
+  - first:
+      213: 3117546006117370642
+    second: Tilemapping Spaceship_9
+  - first:
+      213: 3040017698159464679
+    second: Tilemapping Spaceship_10
+  - first:
+      213: 8946989711237877273
+    second: Tilemapping Spaceship_11
+  - first:
+      213: 2407987277293305729
+    second: Tilemapping Spaceship_12
+  - first:
+      213: 7137869842929354785
+    second: Tilemapping Spaceship_13
+  - first:
+      213: 1061534915107356571
+    second: Tilemapping Spaceship_14
+  - first:
+      213: -5330950779340766393
+    second: Tilemapping Spaceship_15
+  - first:
+      213: -1954479201775074137
+    second: Tilemapping Spaceship_16
+  - first:
+      213: -2932520268969957553
+    second: Tilemapping Spaceship_17
+  - first:
+      213: 2479264585753401298
+    second: Tilemapping Spaceship_18
+  - first:
+      213: -380053713349130919
+    second: Tilemapping Spaceship_19
+  - first:
+      213: -692491184200680475
+    second: Tilemapping Spaceship_20
+  - first:
+      213: -4397111698805310718
+    second: Tilemapping Spaceship_21
+  - first:
+      213: 4613088723611982912
+    second: Tilemapping Spaceship_22
+  - first:
+      213: -9169029638924595082
+    second: Tilemapping Spaceship_23
+  - first:
+      213: -3278564701700552204
+    second: Tilemapping Spaceship_24
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1121
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14ab453a9286424dab3aba7c4c51b5c
+      internalID: -452326061526053197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_1
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1121
+        width: 418
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3311a2e09be0d479c02f369c8412cd
+      internalID: -6419520902869549309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_2
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1121
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861fcdec6a1332e40af467fe432eebfa
+      internalID: 3171607923898160759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_3
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1121
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf55a2040bbc2941b723aae083aac9e
+      internalID: 912977367536317740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_4
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1121
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fe45268e60be342aafef2ab900cffe
+      internalID: -5247598247218913139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_5
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1121
+        width: 417
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7f778dfb9b007429292a7e600672d7
+      internalID: -7773288563654897884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_6
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 1121
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df92a53d0d4eee41ac3df6ee2175ae3
+      internalID: -3171982157230357789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_7
+      rect:
+        serializedVersion: 2
+        x: 3628
+        y: 1121
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6f519261d5af940a7019aaf0734982
+      internalID: -5635029411272020642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 630
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72f54ae8f395c443aea97ce7cbfdf57
+      internalID: 4760229903709667560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_9
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 630
+        width: 418
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abe2df9acedaf94b8dbf07977317162
+      internalID: 3117546006117370642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_10
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 630
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e60a16ab73dcd146bc426df25817959
+      internalID: 3040017698159464679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_11
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 630
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1179a6b498459c40963183d634f6ee5
+      internalID: 8946989711237877273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_12
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 630
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4a08f134ef92140bada1c3ed56dc9e
+      internalID: 2407987277293305729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_13
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 630
+        width: 417
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9fcb253c698b24f9ed4559c6fb0dfe
+      internalID: 7137869842929354785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_14
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 630
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03caa6c6f9fa6848ab925d0e604668c
+      internalID: 1061534915107356571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_15
+      rect:
+        serializedVersion: 2
+        x: 3628
+        y: 630
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4c101ab3afb5642a79f39ed329a715
+      internalID: -5330950779340766393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 140
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f958d386f2bd747b54dcca7606a22c
+      internalID: -1954479201775074137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_17
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 140
+        width: 418
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4750024f7e8634a4e9f5021409c6d09e
+      internalID: -2932520268969957553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_18
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 140
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349512cd6e61f9d4f855b6374d3ae70c
+      internalID: 2479264585753401298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_19
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 140
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fc0b54540cea5459d223dfe21e7a26
+      internalID: -380053713349130919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_20
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 140
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0f495d0f661cc45b534d7c5c70e1be
+      internalID: -692491184200680475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_21
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 140
+        width: 417
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afc044d9e938cd4a98654375e9dd0c8
+      internalID: -4397111698805310718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_22
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 140
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d599428d309d04683bb4222471c687
+      internalID: 4613088723611982912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_23
+      rect:
+        serializedVersion: 2
+        x: 3628
+        y: 140
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350776c42a18f9d40aa31d2dbdb39e6b
+      internalID: -9169029638924595082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemapping Spaceship_24
+      rect:
+        serializedVersion: 2
+        x: 3628
+        y: 9
+        width: 208
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b003aec1ea7c164d87359a9c7c6b2aa
+      internalID: -3278564701700552204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 89d3138b754f2664c86f162c317b2c08
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -10,6 +10,8 @@ public class Portal : MonoBehaviour
     //ParticleSystem.MainModule mm;
     public float resetTime = 3f;
 
+    public AudioSource PortalSFX;
+
     private void Start()
     {
         ps = GetComponent<ParticleSystem>();
@@ -22,6 +24,7 @@ public class Portal : MonoBehaviour
         {
             collision.gameObject.transform.position = otherPortal.transform.position;
             otherPortal.canTeleport = false;
+            PortalSFX.Play();
             //mm.startColor = new Color(90, 90, 90, 255);
             StartCoroutine(delay());
         }

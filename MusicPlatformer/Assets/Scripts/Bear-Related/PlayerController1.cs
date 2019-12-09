@@ -12,6 +12,9 @@ public class PlayerController1 : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
+    public AudioSource Jump;
+    public AudioSource Walk;
+
     bool isGrounded;
     public Transform groundCheck;
     public float checkRadius;
@@ -25,6 +28,7 @@ public class PlayerController1 : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        StartCoroutine(PlayFootstepSound());
     }
 
     private void Update()
@@ -32,13 +36,19 @@ public class PlayerController1 : MonoBehaviour
         //string joystickString = joystickNum.ToString();
         if(Input.GetJoystickNames().Length > 0)
         {
-            for(int i=0; i < Input.GetJoystickNames().Length; i++)
-            {
-                Debug.Log("i is: " + i);
-                Debug.Log("input is: " + Input.GetJoystickNames()[i]);
-            }
-            moveHorizontal = Input.GetAxis("XaxisPlayer" + joystickNum);
-            Debug.Log(Input.GetAxis("XaxisPlayer1"));
+            anim.SetInteger("Run", 2);
+
+        }
+        else
+        {
+            anim.SetInteger("Run", 0);
+        }
+        if (rb.bodyType == RigidbodyType2D.Dynamic)
+        {
+            rb.velocity = new Vector3(moveInput * speed, rb.velocity.y);
+
+        }
+
 
             isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
@@ -73,7 +83,9 @@ public class PlayerController1 : MonoBehaviour
                     }
                     rb.velocity = Vector3.up * jumpForce;
                 }
-                else Debug.Log("Cannot affect static rigidbody");
+                rb.velocity = Vector3.up * jumpForce;
+                Jump.Play();
+                Walk.Stop();
             }
             isGrounded = false;
         }
@@ -83,6 +95,19 @@ public class PlayerController1 : MonoBehaviour
         }
 
 
-        
+
+    }
+
+    private IEnumerator PlayFootstepSound()
+    {
+        while (true)
+        {
+            if (moveInput > 0 || moveInput < 0)
+            {
+                Walk.Play();
+            }
+
+            yield return new WaitForSeconds(0.3f);// Play with this value a bit.
+        }
     }
 }
