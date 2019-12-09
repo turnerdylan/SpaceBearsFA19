@@ -12,6 +12,8 @@ public class Switch : MonoBehaviour
 
     public float moveDistance = 50;
 
+    public AudioSource SwitchSFX;
+
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -27,11 +29,13 @@ public class Switch : MonoBehaviour
             {
                 sr.sprite = pressed;
                 interaction.GetComponent<Animation>().Play("Anim1");
+                SwitchSFX.Play();
             }
             else
             {
                 sr.sprite = unpressed;
                 interaction.GetComponent<Animation>().Play("Anim2");
+                SwitchSFX.Play();
             }
         }
     }

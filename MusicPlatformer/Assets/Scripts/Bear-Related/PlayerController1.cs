@@ -12,6 +12,9 @@ public class PlayerController1 : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
+    public AudioSource Jump;
+    public AudioSource Walk;
+
     bool isGrounded;
     public Transform groundCheck;
     public float checkRadius;
@@ -35,9 +38,11 @@ public class PlayerController1 : MonoBehaviour
         if(moveInput > 0)
         {
             anim.SetInteger("Run", 1);
+            Walk.Play();
         } else if(moveInput < 0)
         {
             anim.SetInteger("Run", 2);
+            Walk.Play();
         }
         else
         {
@@ -46,6 +51,7 @@ public class PlayerController1 : MonoBehaviour
         if (rb.bodyType == RigidbodyType2D.Dynamic)
         {
             rb.velocity = new Vector3(moveInput * speed, rb.velocity.y);
+            
         }
 
 
@@ -66,6 +72,7 @@ public class PlayerController1 : MonoBehaviour
                     anim.SetTrigger("JumpL");
                 }
                 rb.velocity = Vector3.up * jumpForce;
+                Jump.Play();
             }
             else Debug.Log("Cannot affect static rigidbody");
         }
