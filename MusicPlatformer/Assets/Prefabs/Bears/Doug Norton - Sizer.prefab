@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3787cfe3c262eb547b8d748279dfe16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: -90
+  offset: 180
 --- !u!114 &2061074949298335628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,7 +248,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b680ccafbee96d64aa5b8f5ff7c71057, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -323,11 +323,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpForce: 11
+  moveHorizontal: 0
+  Jump: {fileID: 0}
+  Walk: {fileID: 0}
   groundCheck: {fileID: 2061074950336309495}
   checkRadius: 0.4
   whatIsGround:
     serializedVersion: 2
     m_Bits: 15670
+  joystickNum: 1
 --- !u!50 &2061074949952724698
 Rigidbody2D:
   serializedVersion: 4
@@ -361,6 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae4b42cc75f92cf4e9dd2057a945d55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canBeSized: 1
   isFrozen: 0
   isBeingPushed: 0
   currentGravityScale: 2.5
@@ -454,7 +459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061074950336309488}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.01999998, y: -0.97, z: -9.853017}
+  m_LocalPosition: {x: 0.01999998, y: -0.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2061074949952724696}

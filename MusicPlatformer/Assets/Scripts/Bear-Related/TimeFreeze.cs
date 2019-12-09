@@ -8,21 +8,22 @@ public class TimeFreeze : MonoBehaviour
     RaycastShooter rs;
     Object testObject;
     Rigidbody2D rb;
+    PlayerController1 pc;
 
     // Start is called before the first frame update
     void Start()
     {
         rs = GetComponentInChildren<RaycastShooter>();
+        pc = GetComponent<PlayerController1>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetButtonDown("Raycast1player" + pc.joystickNum))
         {
             if (GetObject())
             {
-                Debug.Log("object hit is " + testObject.name);
                 if (testObject.GetComponent<Rigidbody2D>())
                 {
                     rb = testObject.GetComponent<Rigidbody2D>();

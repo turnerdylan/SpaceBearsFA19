@@ -38,7 +38,7 @@ public class PushPull : MonoBehaviour
             }
 
         }
-        else if (Input.GetKey(KeyCode.Q))
+        else if (Input.GetButton("Raycast2player" + pc.joystickNum))
         {
             if (GetObject())
             {

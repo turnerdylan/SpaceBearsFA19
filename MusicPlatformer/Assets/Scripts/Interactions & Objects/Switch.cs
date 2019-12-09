@@ -22,7 +22,8 @@ public class Switch : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.L))
+        var input = collision.gameObject.GetComponent<PlayerController1>().joystickNum;
+        if (Input.GetButtonDown("UseItemPlayer" + input))
         {
             switchState = !switchState;
             if (switchState)

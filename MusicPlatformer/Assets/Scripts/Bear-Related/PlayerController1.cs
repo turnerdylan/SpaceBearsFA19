@@ -1,13 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using Mirror;
 
 public class PlayerController1 : MonoBehaviour
 {
     public float speed;
     public float jumpForce;
-    private float moveHorizontal;
+    public float moveHorizontal;
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -28,30 +27,47 @@ public class PlayerController1 : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        StartCoroutine(PlayFootstepSound());
+        //StartCoroutine(PlayFootstepSound());
     }
 
     private void Update()
     {
+        moveHorizontal = Input.GetAxis("XaxisPlayer" + joystickNum);
+
+
         //string joystickString = joystickNum.ToString();
         if(Input.GetJoystickNames().Length > 0)
         {
-            anim.SetInteger("Run", 2);
-
-        }
-        else
-        {
-            anim.SetInteger("Run", 0);
-        }
-        if (rb.bodyType == RigidbodyType2D.Dynamic)
-        {
-            rb.velocity = new Vector3(moveInput * speed, rb.velocity.y);
-
-        }
+            for(int i=0; i< Input.GetJoystickNames().Length; i++)
+            {
+                Debug.Log("i is " + i + "   name is: " + Input.GetJoystickNames()[i]);
+            }
 
 
             isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
+            //handles jump
+            if (Input.GetButtonDown("JumpPlayer" + joystickNum) && isGrounded == true)
+            {
+                if (rb.bodyType == RigidbodyType2D.Dynamic)
+                {
+                    if (moveHorizontal >= 0)
+                    {
+                        anim.SetTrigger("JumpR");
+                    }
+                    else if (moveHorizontal < 0)
+                    {
+                        anim.SetTrigger("JumpL");
+                    }
+                    rb.velocity = Vector3.up * jumpForce;
+                }
+                Jump.Play();
+                Walk.Stop();
+            }
+            isGrounded = false;
+
+            //handles walking
+            //aniamtions
             if (moveHorizontal > 0.1)
             {
                 anim.SetInteger("Run", 1);
@@ -68,46 +84,23 @@ public class PlayerController1 : MonoBehaviour
             {
                 rb.velocity = new Vector3(moveHorizontal * speed, rb.velocity.y);
             }
-
-            if (Input.GetButtonDown("JumpPlayer" + joystickNum) && isGrounded == true)
-            {
-                if (rb.bodyType == RigidbodyType2D.Dynamic)
-                {
-                    if (moveHorizontal >= 0)
-                    {
-                        anim.SetTrigger("JumpR");
-                    }
-                    else if (moveHorizontal < 0)
-                    {
-                        anim.SetTrigger("JumpL");
-                    }
-                    rb.velocity = Vector3.up * jumpForce;
-                }
-                rb.velocity = Vector3.up * jumpForce;
-                Jump.Play();
-                Walk.Stop();
-            }
-            isGrounded = false;
         }
         else
         {
             Debug.Log("no controller");
-        }
-
-
-
+        }        
     }
+}
 
-    private IEnumerator PlayFootstepSound()
+    /*private IEnumerator PlayFootstepSound(float moveHorizontal)
     {
         while (true)
         {
-            if (moveInput > 0 || moveInput < 0)
+            if (moveHorizontal > 0 || moveHorizontal < 0)
             {
                 Walk.Play();
             }
 
             yield return new WaitForSeconds(0.3f);// Play with this value a bit.
         }
-    }
-}
+    }*/

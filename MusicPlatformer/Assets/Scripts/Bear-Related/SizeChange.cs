@@ -6,23 +6,25 @@ public class SizeChange : MonoBehaviour
 {
     Object testObject;
     RaycastShooter rs;
+    PlayerController1 pc;
 
     // Start is called before the first frame update
     void Start()
     {
         rs = GetComponentInChildren<RaycastShooter>();
+        pc = GetComponent<PlayerController1>();
     }
 
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.P))
+        if (Input.GetButton("Raycast1player" + pc.joystickNum))
         {
             if (GetObject() && testObject.canBeSized)
             {
                 testObject.transform.localScale = Vector3.Lerp(testObject.transform.localScale, testObject.GetLargeScale(), testObject.GetScaleSpeed() * Time.deltaTime);
             }
         }
-        else if (Input.GetKey(KeyCode.I))
+        else if (Input.GetButton("Raycast2player" + pc.joystickNum))
         {
             if (GetObject() && testObject.canBeSized)
             {
