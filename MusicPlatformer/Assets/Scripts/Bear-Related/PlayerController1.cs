@@ -26,6 +26,7 @@ public class PlayerController1 : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        StartCoroutine(PlayFootstepSound());
     }
 
     // Update is called once per frame
@@ -38,11 +39,10 @@ public class PlayerController1 : MonoBehaviour
         if(moveInput > 0)
         {
             anim.SetInteger("Run", 1);
-            Walk.Play();
         } else if(moveInput < 0)
         {
             anim.SetInteger("Run", 2);
-            Walk.Play();
+      
         }
         else
         {
@@ -73,9 +73,23 @@ public class PlayerController1 : MonoBehaviour
                 }
                 rb.velocity = Vector3.up * jumpForce;
                 Jump.Play();
+                Walk.Stop();
             }
             else Debug.Log("Cannot affect static rigidbody");
         }
         isGrounded = false;
+    }
+
+    private IEnumerator PlayFootstepSound()
+    {
+        while (true)
+        {
+            if (moveInput > 0 || moveInput < 0)
+            {
+                Walk.Play();
+            }
+
+            yield return new WaitForSeconds(0.3f);// Play with this value a bit.
+        }
     }
 }
