@@ -59,6 +59,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 15926
+  joystickNum: 1
 --- !u!50 &3407009868110704448
 Rigidbody2D:
   serializedVersion: 4
@@ -92,6 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae4b42cc75f92cf4e9dd2057a945d55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canBeSized: 1
   isFrozen: 0
   isBeingPushed: 0
   currentGravityScale: 2.5
@@ -397,7 +399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3787cfe3c262eb547b8d748279dfe16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: -90
+  offset: 180
 --- !u!114 &3407009869552259975
 MonoBehaviour:
   m_ObjectHideFlags: 0
