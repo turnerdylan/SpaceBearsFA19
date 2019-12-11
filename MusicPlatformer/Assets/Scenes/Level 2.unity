@@ -190,17 +190,17 @@ PrefabInstance:
     - target: {fileID: 4244601083652045460, guid: c4718fa2cd66c064fad4f3dc553d5ea6,
         type: 3}
       propertyPath: door
-      value:
+      value: 
       objectReference: {fileID: 1340215405}
     - target: {fileID: 4244601083652045460, guid: c4718fa2cd66c064fad4f3dc553d5ea6,
         type: 3}
       propertyPath: interaction
-      value:
+      value: 
       objectReference: {fileID: 1340215405}
     - target: {fileID: 4244601083652045460, guid: c4718fa2cd66c064fad4f3dc553d5ea6,
         type: 3}
       propertyPath: SwitchSFX
-      value:
+      value: 
       objectReference: {fileID: 1681263299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4718fa2cd66c064fad4f3dc553d5ea6, type: 3}
@@ -233,7 +233,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 02c86888d9615438796740e93ee52dc2, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.06
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2459,12 +2459,12 @@ PrefabInstance:
     - target: {fileID: 5511614780114027168, guid: 348fa8e81ac04a64385f4c1ba862f2b3,
         type: 3}
       propertyPath: Jump
-      value:
+      value: 
       objectReference: {fileID: 30805993}
     - target: {fileID: 5511614780114027168, guid: 348fa8e81ac04a64385f4c1ba862f2b3,
         type: 3}
       propertyPath: Walk
-      value:
+      value: 
       objectReference: {fileID: 833785620}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 348fa8e81ac04a64385f4c1ba862f2b3, type: 3}
@@ -3100,12 +3100,12 @@ PrefabInstance:
     - target: {fileID: 3407009868110704449, guid: 4416309b8ac53dc4b82b8960ecadff4f,
         type: 3}
       propertyPath: Jump
-      value:
+      value: 
       objectReference: {fileID: 30805993}
     - target: {fileID: 3407009868110704449, guid: 4416309b8ac53dc4b82b8960ecadff4f,
         type: 3}
       propertyPath: Walk
-      value:
+      value: 
       objectReference: {fileID: 833785620}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4416309b8ac53dc4b82b8960ecadff4f, type: 3}
@@ -3478,12 +3478,12 @@ PrefabInstance:
     - target: {fileID: 2061074949952724697, guid: b8c0379ffb54456439757820bfd8528a,
         type: 3}
       propertyPath: Jump
-      value:
+      value: 
       objectReference: {fileID: 30805993}
     - target: {fileID: 2061074949952724697, guid: b8c0379ffb54456439757820bfd8528a,
         type: 3}
       propertyPath: Walk
-      value:
+      value: 
       objectReference: {fileID: 833785620}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8c0379ffb54456439757820bfd8528a, type: 3}
@@ -3557,12 +3557,12 @@ PrefabInstance:
     - target: {fileID: 3058302716708184933, guid: eb4fe20cfe0535644a59a1ad45f7a45f,
         type: 3}
       propertyPath: Victory
-      value:
+      value: 
       objectReference: {fileID: 1617644524}
     - target: {fileID: 3058302716708184933, guid: eb4fe20cfe0535644a59a1ad45f7a45f,
         type: 3}
       propertyPath: Door
-      value:
+      value: 
       objectReference: {fileID: 150179111}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb4fe20cfe0535644a59a1ad45f7a45f, type: 3}
