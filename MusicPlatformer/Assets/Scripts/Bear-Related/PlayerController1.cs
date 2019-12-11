@@ -49,6 +49,7 @@ public class PlayerController1 : MonoBehaviour
             //handles jump
             if (Input.GetButtonDown("JumpPlayer" + joystickNum) && isGrounded == true)
             {
+                Debug.Log("joystick is: " + joystickNum);
                 if (rb.bodyType == RigidbodyType2D.Dynamic)
                 {
                     if (moveHorizontal >= 0)

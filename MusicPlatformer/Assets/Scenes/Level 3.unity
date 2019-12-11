@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -151,7 +151,7 @@ PrefabInstance:
     - target: {fileID: 5511614780114027169, guid: 348fa8e81ac04a64385f4c1ba862f2b3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.853017
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5511614780114027169, guid: 348fa8e81ac04a64385f4c1ba862f2b3,
         type: 3}
@@ -196,12 +196,12 @@ PrefabInstance:
     - target: {fileID: 5511614780114027168, guid: 348fa8e81ac04a64385f4c1ba862f2b3,
         type: 3}
       propertyPath: Jump
-      value:
+      value: 
       objectReference: {fileID: 1290285622}
     - target: {fileID: 5511614780114027168, guid: 348fa8e81ac04a64385f4c1ba862f2b3,
         type: 3}
       propertyPath: Walk
-      value:
+      value: 
       objectReference: {fileID: 1318293714}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 348fa8e81ac04a64385f4c1ba862f2b3, type: 3}
@@ -275,12 +275,12 @@ PrefabInstance:
     - target: {fileID: 3058302716708184933, guid: eb4fe20cfe0535644a59a1ad45f7a45f,
         type: 3}
       propertyPath: Victory
-      value:
+      value: 
       objectReference: {fileID: 1644355049}
     - target: {fileID: 3058302716708184933, guid: eb4fe20cfe0535644a59a1ad45f7a45f,
         type: 3}
       propertyPath: Door
-      value:
+      value: 
       objectReference: {fileID: 721334249}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb4fe20cfe0535644a59a1ad45f7a45f, type: 3}
@@ -2879,7 +2879,7 @@ PrefabInstance:
     - target: {fileID: 3407009868110704572, guid: 4416309b8ac53dc4b82b8960ecadff4f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.853017
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3407009868110704572, guid: 4416309b8ac53dc4b82b8960ecadff4f,
         type: 3}
@@ -2924,12 +2924,12 @@ PrefabInstance:
     - target: {fileID: 3407009868110704449, guid: 4416309b8ac53dc4b82b8960ecadff4f,
         type: 3}
       propertyPath: Jump
-      value:
+      value: 
       objectReference: {fileID: 1290285622}
     - target: {fileID: 3407009868110704449, guid: 4416309b8ac53dc4b82b8960ecadff4f,
         type: 3}
       propertyPath: Walk
-      value:
+      value: 
       objectReference: {fileID: 1318293714}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4416309b8ac53dc4b82b8960ecadff4f, type: 3}
@@ -3173,7 +3173,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1781782021
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.5477196, y: 0.5375, z: 0}
@@ -4592,7 +4592,7 @@ PrefabInstance:
     - target: {fileID: 2061074949952724696, guid: b8c0379ffb54456439757820bfd8528a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.853017
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2061074949952724696, guid: b8c0379ffb54456439757820bfd8528a,
         type: 3}
@@ -4637,12 +4637,12 @@ PrefabInstance:
     - target: {fileID: 2061074949952724697, guid: b8c0379ffb54456439757820bfd8528a,
         type: 3}
       propertyPath: Jump
-      value:
+      value: 
       objectReference: {fileID: 1290285622}
     - target: {fileID: 2061074949952724697, guid: b8c0379ffb54456439757820bfd8528a,
         type: 3}
       propertyPath: Walk
-      value:
+      value: 
       objectReference: {fileID: 1318293714}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8c0379ffb54456439757820bfd8528a, type: 3}
@@ -4722,17 +4722,17 @@ PrefabInstance:
     - target: {fileID: 3974955532147833209, guid: d48cce654b9cd4648b71734dcbc32aec,
         type: 3}
       propertyPath: otherSpawn
-      value:
+      value: 
       objectReference: {fileID: 77695901}
     - target: {fileID: 3974955532147833209, guid: d48cce654b9cd4648b71734dcbc32aec,
         type: 3}
       propertyPath: bearSpawn
-      value:
+      value: 
       objectReference: {fileID: 2013358753}
     - target: {fileID: 3974955532147833209, guid: d48cce654b9cd4648b71734dcbc32aec,
         type: 3}
       propertyPath: Death
-      value:
+      value: 
       objectReference: {fileID: 851384364}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48cce654b9cd4648b71734dcbc32aec, type: 3}

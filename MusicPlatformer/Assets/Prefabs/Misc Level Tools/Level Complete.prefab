@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3058302716708184933}
   - component: {fileID: -6417496880282614099}
   - component: {fileID: 2751601797150227573}
-  m_Layer: 13
+  m_Layer: 14
   m_Name: Level Complete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,6 +47,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorOpen: {fileID: -4950680412457382125, guid: a039d2916c3a4e247ba80ba5c634daf4,
     type: 3}
+  Victory: {fileID: 0}
+  Door: {fileID: 0}
 --- !u!212 &-6417496880282614099
 SpriteRenderer:
   m_ObjectHideFlags: 0

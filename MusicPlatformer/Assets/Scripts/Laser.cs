@@ -11,6 +11,7 @@ public class Laser : MonoBehaviour
     RaycastHit2D hit;
     public LayerMask canHit;
     public Vector3 direction;
+    public Transform reSpawn;
 
     // Start is called before the first frame update
     void Start()
@@ -33,5 +34,10 @@ public class Laser : MonoBehaviour
         endPosition = hit.point;
         laser.SetPosition(0, transform.position);
         laser.SetPosition(1, endPosition);
+        var layer = hit.collider.gameObject.layer;
+        if ( layer == 8 || layer == 9 || layer == 10)
+        {
+            hit.collider.gameObject.transform.position = reSpawn.position;
+        }
     }
 }

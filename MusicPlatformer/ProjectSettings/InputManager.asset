@@ -20,13 +20,13 @@ InputManager:
     invert: 0
     type: 2
     axis: 0
-    joyNum: 5
+    joyNum: 1
   - serializedVersion: 3
     m_Name: JumpPlayer1
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: joystick button 1
+    positiveButton: joystick 1 button 1
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -36,7 +36,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 1
-    joyNum: 5
+    joyNum: 1
   - serializedVersion: 3
     m_Name: LookXPlayer1
     descriptiveName: 
@@ -52,7 +52,7 @@ InputManager:
     invert: 0
     type: 2
     axis: 2
-    joyNum: 5
+    joyNum: 1
   - serializedVersion: 3
     m_Name: LookYPlayer1
     descriptiveName: 
@@ -68,13 +68,13 @@ InputManager:
     invert: 0
     type: 2
     axis: 5
-    joyNum: 5
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Raycast1player1
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: joystick button 7
+    positiveButton: joystick 1 button 7
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -84,13 +84,13 @@ InputManager:
     invert: 0
     type: 0
     axis: 6
-    joyNum: 5
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Raycast2player1
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: joystick button 6
+    positiveButton: joystick 1 button 6
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -100,13 +100,13 @@ InputManager:
     invert: 0
     type: 0
     axis: 7
-    joyNum: 5
+    joyNum: 1
   - serializedVersion: 3
     m_Name: UseItemPlayer1
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: joystick button 2
+    positiveButton: joystick 1 button 2
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -116,7 +116,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 8
-    joyNum: 5
+    joyNum: 1
   - serializedVersion: 3
     m_Name: XaxisPlayer2
     descriptiveName: 
@@ -132,13 +132,13 @@ InputManager:
     invert: 0
     type: 2
     axis: 0
-    joyNum: 1
+    joyNum: 2
   - serializedVersion: 3
     m_Name: JumpPlayer2
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: 
+    positiveButton: joystick 2 button 1
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -148,7 +148,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 1
-    joyNum: 1
+    joyNum: 2
   - serializedVersion: 3
     m_Name: LookXPlayer2
     descriptiveName: 
@@ -164,7 +164,7 @@ InputManager:
     invert: 0
     type: 2
     axis: 2
-    joyNum: 1
+    joyNum: 2
   - serializedVersion: 3
     m_Name: LookYPlayer2
     descriptiveName: 
@@ -180,13 +180,13 @@ InputManager:
     invert: 0
     type: 2
     axis: 5
-    joyNum: 1
+    joyNum: 2
   - serializedVersion: 3
     m_Name: Raycast1player2
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: 
+    positiveButton: joystick 2 button 7
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -196,13 +196,13 @@ InputManager:
     invert: 0
     type: 0
     axis: 13
-    joyNum: 1
+    joyNum: 2
   - serializedVersion: 3
     m_Name: Raycast2player2
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: 
+    positiveButton: joystick 2 button 6
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -212,13 +212,13 @@ InputManager:
     invert: 0
     type: 0
     axis: 14
-    joyNum: 1
+    joyNum: 2
   - serializedVersion: 3
     m_Name: UseItemPlayer2
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: 
+    positiveButton: joystick 2 button 2
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -228,7 +228,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 15
-    joyNum: 1
+    joyNum: 2
   - serializedVersion: 3
     m_Name: XaxisPlayer3
     descriptiveName: 
@@ -244,13 +244,13 @@ InputManager:
     invert: 0
     type: 2
     axis: 0
-    joyNum: 1
+    joyNum: 3
   - serializedVersion: 3
     m_Name: JumpPlayer3
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: 
+    positiveButton: joystick 3 button 1
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -260,7 +260,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 17
-    joyNum: 1
+    joyNum: 3
   - serializedVersion: 3
     m_Name: LookXPlayer3
     descriptiveName: 
@@ -276,7 +276,7 @@ InputManager:
     invert: 0
     type: 2
     axis: 2
-    joyNum: 1
+    joyNum: 3
   - serializedVersion: 3
     m_Name: LookYPlayer3
     descriptiveName: 
@@ -292,13 +292,13 @@ InputManager:
     invert: 0
     type: 2
     axis: 5
-    joyNum: 1
+    joyNum: 3
   - serializedVersion: 3
     m_Name: Raycast1player3
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: 
+    positiveButton: joystick 3 button 7
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -308,13 +308,13 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 2
+    joyNum: 3
   - serializedVersion: 3
     m_Name: UseItemPlayer3
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: 
+    positiveButton: joystick 3 button 2
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -324,7 +324,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 1
-    joyNum: 2
+    joyNum: 3
   - serializedVersion: 3
     m_Name: joystick 2 analog 2
     descriptiveName: 
@@ -340,7 +340,7 @@ InputManager:
     invert: 0
     type: 2
     axis: 2
-    joyNum: 2
+    joyNum: 3
   - serializedVersion: 3
     m_Name: joystick 2 analog 3
     descriptiveName: 
@@ -356,7 +356,7 @@ InputManager:
     invert: 0
     type: 2
     axis: 3
-    joyNum: 2
+    joyNum: 3
   - serializedVersion: 3
     m_Name: joystick 2 analog 4
     descriptiveName: 

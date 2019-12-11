@@ -280,7 +280,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 15158
-  joystickNum: 1
+  joystickNum: 3
 --- !u!50 &5511614780114027171
 Rigidbody2D:
   serializedVersion: 4
@@ -466,7 +466,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 439a10ee8f8d14040be9003239449741, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

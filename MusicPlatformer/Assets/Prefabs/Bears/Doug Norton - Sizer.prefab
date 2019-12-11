@@ -331,7 +331,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 15670
-  joystickNum: 1
+  joystickNum: 2
 --- !u!50 &2061074949952724698
 Rigidbody2D:
   serializedVersion: 4
