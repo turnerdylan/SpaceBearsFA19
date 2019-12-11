@@ -9,6 +9,7 @@ public class Portal : MonoBehaviour
     ParticleSystem ps;
     //ParticleSystem.MainModule mm;
     public float resetTime = 3f;
+    public float rotateSpeed;
 
     public AudioSource PortalSFX;
 
@@ -16,6 +17,11 @@ public class Portal : MonoBehaviour
     {
         ps = GetComponent<ParticleSystem>();
         //mm = ps.main;
+    }
+
+    private void Update()
+    {
+        transform.Rotate(0, 0, rotateSpeed);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -170,7 +170,7 @@ PrefabInstance:
     - target: {fileID: 1776457243094324642, guid: c4718fa2cd66c064fad4f3dc553d5ea6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1776457243094324642, guid: c4718fa2cd66c064fad4f3dc553d5ea6,
         type: 3}
@@ -2414,7 +2414,7 @@ PrefabInstance:
     - target: {fileID: 5511614780114027169, guid: 348fa8e81ac04a64385f4c1ba862f2b3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.853017
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5511614780114027169, guid: 348fa8e81ac04a64385f4c1ba862f2b3,
         type: 3}
@@ -2439,7 +2439,7 @@ PrefabInstance:
     - target: {fileID: 5511614780114027169, guid: 348fa8e81ac04a64385f4c1ba862f2b3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5511614780114027169, guid: 348fa8e81ac04a64385f4c1ba862f2b3,
         type: 3}
@@ -2714,7 +2714,7 @@ TextMesh:
   m_GameObject: {fileID: 929825260}
   m_Text: 'Use Doug Norton''s size ability
 
-    with [I] and [P]'
+    with [L2] and [R2]'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2806,7 +2806,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940330358}
-  m_Text: Use switches with [L]
+  m_Text: Use switches with [O]
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2953,7 +2953,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1000935097
 PrefabInstance:
@@ -3055,7 +3055,7 @@ PrefabInstance:
     - target: {fileID: 3407009868110704572, guid: 4416309b8ac53dc4b82b8960ecadff4f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.853017
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3407009868110704572, guid: 4416309b8ac53dc4b82b8960ecadff4f,
         type: 3}
@@ -3433,7 +3433,7 @@ PrefabInstance:
     - target: {fileID: 2061074949952724696, guid: b8c0379ffb54456439757820bfd8528a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.853017
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2061074949952724696, guid: b8c0379ffb54456439757820bfd8528a,
         type: 3}
@@ -4784,7 +4784,7 @@ PrefabInstance:
     - target: {fileID: 8329438869763297210, guid: cf7eb85c8a3e6c94187871241aca22d4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8329438869763297210, guid: cf7eb85c8a3e6c94187871241aca22d4,
         type: 3}

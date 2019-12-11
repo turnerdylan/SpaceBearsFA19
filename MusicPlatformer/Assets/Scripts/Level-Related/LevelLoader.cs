@@ -15,14 +15,14 @@ public class LevelLoader : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X) /*&& currentSceneIndex != SceneManager.sceneCountInBuildSettings - 1*/)
+        if (currentSceneIndex == 0 && Input.GetButtonDown("JumpPlayer1"))
         {
             LoadNextScene();
         }
-        /*else
+        else if (currentSceneIndex == 0 && Input.GetButtonDown("UseItemPlayer1"))
         {
-            LoadMainMenu();
-        }*/
+            Application.Quit();
+        }
     }
 
     public void RestartScene()
