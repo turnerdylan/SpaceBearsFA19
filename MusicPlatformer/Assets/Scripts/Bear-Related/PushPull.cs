@@ -11,10 +11,12 @@ public class PushPull : MonoBehaviour
     Vector3 offset;
     Rigidbody2D rb;
     public float moveSpeed;
+    PlayerController1 pc;
 
     private void Start()
     {
         rs = GetComponentInChildren<RaycastShooter>();
+        pc = GetComponent<PlayerController1>();
     }
 
     // Update is called once per frame
@@ -22,7 +24,7 @@ public class PushPull : MonoBehaviour
     {
         playerTransform = transform.position;
 
-        if (Input.GetKey(KeyCode.E) )
+        if (Input.GetButton("Raycast1player" + pc.joystickNum) )
         {
             if (GetObject())
             {
@@ -36,7 +38,7 @@ public class PushPull : MonoBehaviour
             }
 
         }
-        else if (Input.GetKey(KeyCode.Q))
+        else if (Input.GetButton("Raycast2player" + pc.joystickNum))
         {
             if (GetObject())
             {

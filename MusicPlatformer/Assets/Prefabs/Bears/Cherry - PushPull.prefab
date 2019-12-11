@@ -54,11 +54,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpForce: 11
+  moveHorizontal: 0
+  Jump: {fileID: 0}
+  Walk: {fileID: 0}
   groundCheck: {fileID: 3407009869624699314}
   checkRadius: 0.4
   whatIsGround:
     serializedVersion: 2
     m_Bits: 15926
+  joystickNum: 1
 --- !u!50 &3407009868110704448
 Rigidbody2D:
   serializedVersion: 4
@@ -92,6 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae4b42cc75f92cf4e9dd2057a945d55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canBeSized: 1
   isFrozen: 0
   isBeingPushed: 0
   currentGravityScale: 2.5
@@ -329,7 +334,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b680ccafbee96d64aa5b8f5ff7c71057, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -397,7 +402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3787cfe3c262eb547b8d748279dfe16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: -90
+  offset: 180
 --- !u!114 &3407009869552259975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,8 +455,8 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 128814079
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
@@ -476,33 +481,33 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
-      key3: {r: 0, g: 0, b: 0, a: 0}
+      key0: {r: 0, g: 0.8398378, b: 1, a: 1}
+      key1: {r: 0.033018887, g: 0.34860697, b: 1, a: 1}
+      key2: {r: 0.6945023, g: 0.1462264, b: 1, a: 1}
+      key3: {r: 1, g: 0.2028302, b: 0.9608161, a: 1}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
+      ctime1: 28527
+      ctime2: 47995
+      ctime3: 65535
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
+      atime1: 27949
+      atime2: 47802
+      atime3: 65535
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 4
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
@@ -535,7 +540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3407009869624699315}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.01999998, y: -0.97, z: -9.853017}
+  m_LocalPosition: {x: 0.01999998, y: -0.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3407009868110704572}

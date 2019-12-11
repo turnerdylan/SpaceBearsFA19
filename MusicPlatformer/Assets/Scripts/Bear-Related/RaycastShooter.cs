@@ -31,6 +31,8 @@ public class RaycastShooter : MonoBehaviour
         laser.SetPositions(initLaserPositions);
         laser.startWidth = laserWidth;
         laser.endWidth = laserWidth;
+        laser.startColor = Color.red;
+
     }
 
     public Object GetObjectHit()
