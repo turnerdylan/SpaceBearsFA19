@@ -34,6 +34,7 @@ public class PushPull : MonoBehaviour
                     rb.velocity = offset * moveSpeed;
                     rb.gravityScale = 0;
                     testObject.isBeingPushed = true;
+                    
                 }
             }
         }
@@ -47,11 +48,16 @@ public class PushPull : MonoBehaviour
                     rb.velocity = -offset * moveSpeed;
                     rb.gravityScale = 0;
                     testObject.isBeingPushed = true;
+                    if (!pc.GetTaunt())
+                    {
+                        pc.TauntControl(true);
+                    }
                 }
             }
         }
         else
         {
+            pc.TauntControl(false);
             rs.ClearLines();
         }
 

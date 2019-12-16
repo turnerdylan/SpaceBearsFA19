@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1776457243094324641}
   - component: {fileID: 4636395090000779007}
   - component: {fileID: 4244601083652045460}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: switch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,8 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed16a5fbeb4428d429a2ecc8042fe101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 0}
+  interaction: {fileID: 0}
   unpressed: {fileID: 8588082251796426053, guid: 812fee9cf82eec94998386a2b0f4d15f,
     type: 3}
   pressed: {fileID: 6563378474316741513, guid: 812fee9cf82eec94998386a2b0f4d15f, type: 3}
   moveDistance: 50
+  SwitchSFX: {fileID: 0}

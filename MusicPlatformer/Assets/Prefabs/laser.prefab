@@ -126,7 +126,7 @@ MonoBehaviour:
   canHit:
     serializedVersion: 2
     m_Bits: 7991
-  direction: {x: 1, y: 0, z: 0}
+  direction: {x: -1, y: 0, z: 0}
   reSpawn: {fileID: 6384362550710719983}
 --- !u!120 &6384362552118494084
 LineRenderer:

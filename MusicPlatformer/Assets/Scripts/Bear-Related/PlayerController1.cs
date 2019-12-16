@@ -90,6 +90,21 @@ public class PlayerController1 : MonoBehaviour
             Debug.Log("no controller");
         }        
     }
+
+    public void TauntControl(bool input)
+    {
+        anim.SetBool("taunt", input);
+    }
+
+    public bool GetTaunt()
+    {
+        return anim.GetBool("taunt");
+    }
+
+    public void TauntTrigger()
+    {
+        anim.SetTrigger("taunt2");
+    }
 }
 
     /*private IEnumerator PlayFootstepSound(float moveHorizontal)

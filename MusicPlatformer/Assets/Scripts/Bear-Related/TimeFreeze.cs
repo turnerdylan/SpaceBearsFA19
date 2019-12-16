@@ -33,6 +33,7 @@ public class TimeFreeze : MonoBehaviour
                     return;
                 }
 
+                pc.TauntTrigger();
                 if (!testObject.isFrozen)
                 {
                     storedVelocity = rb.velocity;
@@ -45,6 +46,7 @@ public class TimeFreeze : MonoBehaviour
                     rb.velocity = storedVelocity;
                     testObject.isFrozen = false;
                 }
+                StartCoroutine(delay());
             }
         }
     }
@@ -58,5 +60,11 @@ public class TimeFreeze : MonoBehaviour
         }
         return false;
 
+    }
+
+    IEnumerator delay()
+    {
+        yield return new WaitForSeconds(1);
+        rs.ClearLines();
     }
 }
