@@ -22,7 +22,7 @@ public class RaycastShooter : MonoBehaviour
 
     LineRenderer laser;
     float laserWidth = 0.1f;
-    float laserMaxLength = 20f;
+    float laserMaxLength = 30f;
 
     private void Start()
     {
@@ -32,7 +32,7 @@ public class RaycastShooter : MonoBehaviour
         laser.startWidth = laserWidth;
         laser.endWidth = laserWidth;
         laser.startColor = Color.red;
-
+        laser.sortingLayerName = "Default";
     }
 
     public Object GetObjectHit()
@@ -49,11 +49,10 @@ public class RaycastShooter : MonoBehaviour
 
             //draws ray for visual purposes
             //Debug.DrawRay(arrow.transform.position, diff * hit.distance * 2.5f, Color.blue, 0.5f);
-            laser.SetPosition(0, transform.position);
+            laser.SetPosition(0, arrow.transform.position);
             laser.SetPosition(1, endPosition);
             return objectHit;
         }
-        laser.enabled = false;
         Debug.Log("No object hit");
         return null;
     }
@@ -65,5 +64,10 @@ public class RaycastShooter : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    public void ClearLines()
+    {
+        laser.enabled = false;
     }
 }

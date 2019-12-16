@@ -20,8 +20,6 @@ public class Pointer : MonoBehaviour
         float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotZ + offset);*/
         int player = pc.joystickNum;
-
-
         transform.eulerAngles = new Vector3(0, 0, offset + Mathf.Atan2(Input.GetAxis("LookXPlayer" + player), Input.GetAxis("LookYPlayer" + player)) * 180 / Mathf.PI );
     }
 }

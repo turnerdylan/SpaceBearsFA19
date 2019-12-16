@@ -36,7 +36,6 @@ public class PushPull : MonoBehaviour
                     testObject.isBeingPushed = true;
                 }
             }
-
         }
         else if (Input.GetButton("Raycast2player" + pc.joystickNum))
         {
@@ -50,6 +49,10 @@ public class PushPull : MonoBehaviour
                     testObject.isBeingPushed = true;
                 }
             }
+        }
+        else
+        {
+            rs.ClearLines();
         }
 
     }
