@@ -27,11 +27,12 @@ public class PlayerController1 : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        //StartCoroutine(PlayFootstepSound());
+        StartCoroutine(PlayFootstepSound(moveHorizontal));
     }
 
     private void Update()
     {
+        Jump.Play();
         moveHorizontal = Input.GetAxis("XaxisPlayer" + joystickNum);
 
 
@@ -91,7 +92,7 @@ public class PlayerController1 : MonoBehaviour
         }        
     }
 
-    public void TauntControl(bool input)
+    /*public void TauntControl(bool input)
     {
         anim.SetBool("taunt", input);
     }
@@ -104,10 +105,8 @@ public class PlayerController1 : MonoBehaviour
     public void TauntTrigger()
     {
         anim.SetTrigger("taunt2");
-    }
-}
-
-    /*private IEnumerator PlayFootstepSound(float moveHorizontal)
+    }*/
+    private IEnumerator PlayFootstepSound(float moveHorizontal)
     {
         while (true)
         {
@@ -118,4 +117,7 @@ public class PlayerController1 : MonoBehaviour
 
             yield return new WaitForSeconds(0.3f);// Play with this value a bit.
         }
-    }*/
+    }
+}
+
+    

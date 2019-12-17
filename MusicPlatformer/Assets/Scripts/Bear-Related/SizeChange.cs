@@ -21,7 +21,7 @@ public class SizeChange : MonoBehaviour
         {
             if (GetObject() && testObject.canBeSized)
             {
-                pc.TauntControl(true);
+                //pc.TauntControl(true);
                 testObject.transform.localScale = Vector3.Lerp(testObject.transform.localScale, testObject.GetLargeScale(), testObject.GetScaleSpeed() * Time.deltaTime);
             }
         }
@@ -29,13 +29,9 @@ public class SizeChange : MonoBehaviour
         {
             if (GetObject() && testObject.canBeSized)
             {
-                pc.TauntControl(true);
+                //pc.TauntControl(true);
                 testObject.transform.localScale = Vector3.Lerp(testObject.transform.localScale, testObject.GetSmallScale(), testObject.GetScaleSpeed() * Time.deltaTime);
             }
-        }
-        else
-        {
-            pc.TauntControl(false);
         }
     }
 

@@ -15,13 +15,19 @@ public class LevelLoader : MonoBehaviour
 
     private void Update()
     {
-        if (currentSceneIndex == 0 && Input.GetButtonDown("JumpPlayer1"))
+        //Debug.Log(SceneManager.sceneCountInBuildSettings);
+        //Debug.Log("current scene is " + currentSceneIndex);
+        if ((currentSceneIndex == 0) && Input.GetButtonDown("JumpPlayer1"))
         {
             LoadNextScene();
         }
-        else if (currentSceneIndex == 0 && Input.GetButtonDown("UseItemPlayer1"))
+        else if ((currentSceneIndex == 0  || currentSceneIndex == SceneManager.sceneCountInBuildSettings - 1) && Input.GetButtonDown("UseItemPlayer1"))
         {
             Application.Quit();
+        }else if(currentSceneIndex == SceneManager.sceneCountInBuildSettings - 1 && Input.GetButtonDown("JumpPlayer1"))
+        {
+
+            LoadMainMenu();
         }
     }
 

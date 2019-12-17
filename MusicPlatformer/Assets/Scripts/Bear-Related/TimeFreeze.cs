@@ -33,7 +33,7 @@ public class TimeFreeze : MonoBehaviour
                     return;
                 }
 
-                pc.TauntTrigger();
+                //pc.TauntTrigger();
                 if (!testObject.isFrozen)
                 {
                     storedVelocity = rb.velocity;
