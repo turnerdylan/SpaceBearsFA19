@@ -33,6 +33,10 @@ public class SizeChange : MonoBehaviour
                 testObject.transform.localScale = Vector3.Lerp(testObject.transform.localScale, testObject.GetSmallScale(), testObject.GetScaleSpeed() * Time.deltaTime);
             }
         }
+        else
+        {
+            rs.ClearLines();
+        }
     }
 
     bool GetObject()

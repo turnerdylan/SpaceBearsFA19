@@ -32,7 +32,6 @@ public class PlayerController1 : MonoBehaviour
 
     private void Update()
     {
-        Jump.Play();
         moveHorizontal = Input.GetAxis("XaxisPlayer" + joystickNum);
 
 

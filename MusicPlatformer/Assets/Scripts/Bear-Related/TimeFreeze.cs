@@ -46,8 +46,8 @@ public class TimeFreeze : MonoBehaviour
                     rb.velocity = storedVelocity;
                     testObject.isFrozen = false;
                 }
-                StartCoroutine(delay());
             }
+            StartCoroutine(delay());
         }
     }
 
@@ -64,7 +64,7 @@ public class TimeFreeze : MonoBehaviour
 
     IEnumerator delay()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.1f);
         rs.ClearLines();
     }
 }

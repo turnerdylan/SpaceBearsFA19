@@ -21,14 +21,17 @@ public class Rotator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = pos;
-        if (!obj.isFrozen && sin)
+        if (!obj.isFrozen)
         {
-            transform.rotation = Quaternion.Euler(0f, 0f, maxRotation * Mathf.Sin((Time.time * rotateSpeed) + offset));
-        }
-        else
-        {
-            transform.Rotate(0, 0, -5);
+            transform.position = pos;
+            if (!obj.isFrozen && sin)
+            {
+                transform.rotation = Quaternion.Euler(0f, 0f, maxRotation * Mathf.Sin((Time.time * rotateSpeed) + offset));
+            }
+            else
+            {
+                transform.Rotate(0, 0, -5);
+            }
         }
     }
 }

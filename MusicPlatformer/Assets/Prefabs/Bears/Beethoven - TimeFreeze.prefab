@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 5511614780114027183}
   - component: {fileID: 8599201195281330546}
   - component: {fileID: 8145152192286211728}
-  - component: {fileID: 1567685784}
+  - component: {fileID: 421042667}
   m_Layer: 10
   m_Name: Beethoven - TimeFreeze
   m_TagString: Player
@@ -304,7 +304,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.009430647, y: -0.16632104}
   m_Size: {x: 1.2961488, y: 1.8564963}
   m_Direction: 0
---- !u!212 &1567685784
+--- !u!212 &421042667
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -342,7 +342,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0b4f25f81aaa8ab478f3a6093ca94d21, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -350,7 +350,7 @@ SpriteRenderer:
   m_Size: {x: 1.88, y: 2.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &5511614780667606007

@@ -47,8 +47,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorOpen: {fileID: -4950680412457382125, guid: a039d2916c3a4e247ba80ba5c634daf4,
     type: 3}
-  Victory: {fileID: 0}
-  Door: {fileID: 0}
+  Victory: {fileID: 9073683992711423412, guid: 9b72fb79421968a46b7e16ca7406c4ed, type: 3}
+  Door: {fileID: 6672134695625901260, guid: c38694ae049375a4aabda955d0bbbd82, type: 3}
 --- !u!212 &-6417496880282614099
 SpriteRenderer:
   m_ObjectHideFlags: 0
