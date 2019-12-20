@@ -72,8 +72,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c814f448737a1b94fa335cf98a693a80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otherSpawn: {fileID: 0}
-  bearSpawn: {fileID: 0}
+  otherSpawn: {fileID: 8037748121871400074}
+  bearSpawn: {fileID: 8037748121871400074}
+  Death: {fileID: 4127023063715535879, guid: cf888ecf8d4d39f42abf7c64c79cd965, type: 3}
 --- !u!1 &3974955532973157443
 GameObject:
   m_ObjectHideFlags: 0
