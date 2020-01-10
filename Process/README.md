@@ -1,6 +1,11 @@
 # SpaceBearsFA19
 ## Final Project for Team Space Bears in ATLS4040: Game Development
  ---
+ ## Final Version 12/7/19
+ 
+ We are finally done with our game and the bears are all ready to go! Check out our itch page at https://zspacesheikh.itch.io/a-space-bear-adventure
+ 
+ ---
  ## Game Sound 12/3/19
  
 As we approach the end of the semester we are starting to polish our project into the passion project our team has envisioned. One area we are looking at now is the sound design of the game. Currently we aren't expecting any limitations on file size as our game isn't too massive, we will be using BFXR to create our sound effects and FL Studio to create our soundtrack both of which will be exported as WAV files. Below is our current sound design plans.
